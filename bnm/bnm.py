@@ -4,7 +4,7 @@ import datetime
 from .constants import BASE_CURRENCY, EXCHANGE_SESSION, PRODUCTS, URL
 
 
-class OpenBNM():
+class BNM():
     """
     Python wrapper for OpenBNM open API
     """

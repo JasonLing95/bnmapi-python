@@ -1,0 +1,20 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bnmapi-python"
+version = "0.0.1"
+description = "Unofficial python wrapper for Bank Negara Malaysia OpenAPI"
+readme = "README.md"
+authors = [{ name = "JasonLing" }]
+keywords = ["python", "wrapper", "api", "bnm"]
+dependencies = [
+    "requests"
+]
+requires-python = ">=3.7"
+
+[project.urls]
+Homepage = "https://github.com/JasonLing95/bnmapi-python"
